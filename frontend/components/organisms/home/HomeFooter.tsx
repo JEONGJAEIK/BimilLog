@@ -52,11 +52,7 @@ export const HomeFooter: React.FC = () => {
           {/* 로고 및 소개 */}
           <div>
             <div className="flex items-center mb-4">
-              <img
-                src="/log.png"
-                alt="비밀로그"
-                className="h-10 object-contain"
-              />
+              <h2 className="text-2xl font-bold text-white">비밀로그</h2>
             </div>
             <p className="text-gray-400">익명으로 마음을 전하는 특별한 공간</p>
           </div>
@@ -95,6 +91,7 @@ export const HomeFooter: React.FC = () => {
         {/* 저작권 정보 */}
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
           <p>&copy; 2025 비밀로그. All rights reserved.</p>
+          <p className="mt-2 text-sm">비밀로그 v0.1.0</p>
         </div>
       </div>
     </footer>
